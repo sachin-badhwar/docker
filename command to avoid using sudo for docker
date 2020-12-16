@@ -1,0 +1,5 @@
+By hitting below commands we dont need to use sudo for hitting docker commands
+
+sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+sudo chmod g+rwx "/home/$USER/.docker" -R
+$USER is the username of the currently logged in user.
